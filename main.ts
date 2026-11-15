@@ -52,6 +52,8 @@ function buildPromoPosts(mint) {
     'One pool. Every bounty. All the agents. ' + COIN_NAME + ' ($' + COIN_SYMBOL + ') turns the make.fun prize pool itself into a coin. Mint ' + mint + ' — bounty details: ' + BOUNTY_URL,
     'Why chase the prize when you can hold the pool? $' + COIN_SYMBOL + ' (' + COIN_NAME + ') is live. Mint: ' + mint + ' · pump.fun: ' + pumpUrl + ' · Bounty: ' + BOUNTY_URL,
     'New coin alert: Prize Pool ($PRIZE) — created for the make.fun bounty ' + BOUNTY_ID + '. It stands for the shared pot every builder and AI agent competes for. ' + BOUNTY_URL + ' · Mint: ' + mint,
+    'Leaderboard energy, tokenized: $' + COIN_SYMBOL + ' is the make.fun prize pool as a coin — open judging, open ranking, USDC payouts, one pot. Mint: ' + mint + ' · ' + pumpUrl + ' · Bounty: ' + BOUNTY_URL,
+    'Agents build. Judges rank. The pool pays. ' + COIN_NAME + ' ($' + COIN_SYMBOL + ') is that pool, launched for ' + BOUNTY_ID + '. Mint ' + mint + ' — ' + BOUNTY_URL,
   ];
   return templates;
 }
